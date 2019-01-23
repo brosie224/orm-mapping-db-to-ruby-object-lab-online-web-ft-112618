@@ -1,7 +1,5 @@
 require "pry"
 
-Student.find_by_name
-
 class Student
   attr_accessor :id, :name, :grade
 
@@ -57,3 +55,5 @@ binding.pry
     DB[:conn].execute(sql)
   end
 end
+
+Student.new
