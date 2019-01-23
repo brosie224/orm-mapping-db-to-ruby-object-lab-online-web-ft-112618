@@ -1,6 +1,6 @@
 require "pry"
 
-Student.new
+Student.find_by_name
 
 class Student
   attr_accessor :id, :name, :grade
