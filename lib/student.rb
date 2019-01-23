@@ -55,5 +55,3 @@ binding.pry
     DB[:conn].execute(sql)
   end
 end
-
-Student.new
